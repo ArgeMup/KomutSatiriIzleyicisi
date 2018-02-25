@@ -1,0 +1,8 @@
+adb disconnect
+adb connect 192.168.2.126:5555
+adb devices
+adb connect 127.0.0.1:62001
+adb logcat -s Unity BoundService GamesUnitySDK GamesNativeSDK
+adb logcat
+adb logcat -s Unity
+adb logcat -s Unity -d > C:\Users\asd\Desktop\logcat.txt
